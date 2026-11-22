@@ -1,0 +1,84 @@
+Gold subset: curriculum_subset_math_cs_ds.xlsx
+courses compared: 36/36 recall=100.0%
+missing courses: 0
+name mismatches among found courses: 1
+unit mismatches among found courses: 1
+prereq text mismatches among found courses: 15
+relation edges: gold=69 missing=0 extra_on_gold_targets=14 recall=100.0%
+major requirement rows: gold=59 missing=0 extra=44 recall=100.0%
+
+Differences
+prereq_text	COMPSCI203	bulletin='pre or co-requisite: COMPSCI 201 or MATH 202' gold=nan
+prereq_text	COMPSCI205	bulletin='COMPSCI 201' gold=nan
+prereq_text	COMPSCI308	bulletin='COMPSCI 201; and COMPSCI 203 or MATH 206.' gold=nan
+units	MATH101	bulletin=4 gold=2
+prereq_text	MATH105	bulletin='Recommended for students who have had a previous (high-school level) Calculus course.' gold='Recommended for students who have had a previous high-school level Calculus course'
+prereq_text	MATH201	bulletin='MATH 101 or 105' gold='MATH 101 or MATH 105'
+prereq_text	MATH202	bulletin='MATH101 or 105' gold='MATH 101 or MATH 105'
+prereq_text	MATH203	bulletin='MATH101 or 105' gold='MATH 101 or MATH 105'
+prereq_text	MATH206	bulletin='MATH 101 or 105' gold='MATH 101 or MATH 105'
+prereq_text	MATH302	bulletin='MATH 201; and MATH 202; and COMPSCI 101 or 201 or STATS 102' gold=nan
+name	MATH303	bulletin='ODE and Dynamical Systems' gold='ODE and Dynamical System'
+prereq_text	MATH303	bulletin='MATH 201, MATH 202' gold='MATH 201 and MATH 202'
+prereq_text	MATH405	bulletin='MATH 201; MATH 202; and MATH 206.' gold=nan
+prereq_text	MATH406	bulletin='MATH 201 and MATH 202' gold=nan
+prereq_text	MATH409	bulletin='MATH 308 or Consent of the Instructor' gold=nan
+prereq_text	PHYS121	bulletin='MATH 101 or 105.' gold=nan
+prereq_text	STATS211	bulletin='MATH 206. COMPSCI 201 or COMPSCI 101 or STATS 102 is recommended.' gold='MATH 206; COMPSCI 201 or COMPSCI 101 or STATS 102 is recommended'
+extra_edge	COMPSCI201->COMPSCI101	antirequisite
+extra_edge	COMPSCI201->COMPSCI308	prerequisite
+extra_edge	COMPSCI201->STATS303	prerequisite
+extra_edge	COMPSCI203->COMPSCI308	prerequisite
+extra_edge	COMPSCI308->COMPSCI301	antirequisite
+extra_edge	COMPSCI309/STATS302->MATH405	antirequisite
+extra_edge	COMPSCI310->COMPSCI301	antirequisite
+extra_edge	MATH101->PHYS121	prerequisite
+extra_edge	MATH105->PHYS121	prerequisite
+extra_edge	MATH205->MATH206	antirequisite
+extra_edge	MATH206->COMPSCI308	prerequisite
+extra_edge	MATH405->STATS303	prerequisite
+extra_edge	STATS210->STATS211	antirequisite
+extra_requirement	AMCS-Computer Science|COMPSCI204|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Computer Science|COMPSCI208|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Computer Science|COMPSCI303|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Computer Science|COMPSCI307|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Computer Science|COMPSCI320|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Computer Science|COMPSCI401|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Computer Science|COMPSCI403|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Computer Science|COMPSCI404|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Computer Science|COMPSCI405|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Computer Science|COMPSCI406|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Computer Science|MATH405|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|COMPSCI413|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|ECON317|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|ECON411|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|MATH301|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|MATH306|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|MATH317|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|MATH404|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|MATH407|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|MATH408|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|MATH412|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|MATH414|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|MATH450|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|PHYS407|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	AMCS-Mathematics|STATS301|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI101|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI203|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI205|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI207|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI302|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI303|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI304|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI306|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI308|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI310|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI311|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI320|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI401|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|COMPSCI402|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|ECON211|Interdisciplinary|required	in bulletin major section, not in gold subset
+extra_requirement	Data Science|STATS102|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|STATS304|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|STATS403|Electives|elective	in bulletin major section, not in gold subset
+extra_requirement	Data Science|STATS404|Electives|elective	in bulletin major section, not in gold subset

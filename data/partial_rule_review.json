@@ -1,0 +1,6566 @@
+[
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 58,
+      "legacy_rule_id": 1,
+      "major": "AMCS-Computer Science",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following three courses",
+      "courses": [
+        "COMPSCI306",
+        "COMPSCI310",
+        "COMPSCI311"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following three courses",
+      "page": 95,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "COMPSCI306",
+        "COMPSCI310",
+        "COMPSCI311"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 59,
+      "legacy_rule_id": 2,
+      "major": "AMCS-Computer Science",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "COMPSCI201",
+        "COMPSCI203",
+        "COMPSCI205",
+        "COMPSCI308"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 94,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "COMPSCI201",
+        "COMPSCI203",
+        "COMPSCI205",
+        "COMPSCI308"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 60,
+      "legacy_rule_id": 3,
+      "major": "AMCS-Computer Science",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 94,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 61,
+      "legacy_rule_id": 4,
+      "major": "AMCS-Computer Science",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 2,
+      "phrase": "And choose two of the following courses (PHYS 121 and INTGSCI 205 are strongly recommended)",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121",
+        "INTGSCI205"
+      ]
+    },
+    "group": {
+      "phrase": "And choose two of the following courses (PHYS 121 and INTGSCI 205 are strongly",
+      "page": 94,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121",
+        "INTGSCI205"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 62,
+      "legacy_rule_id": 5,
+      "major": "AMCS-Computer Science",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "COMPSCI303",
+        "COMPSCI401",
+        "COMPSCI404",
+        "COMPSCI405",
+        "COMPSCI208/MEDIART206",
+        "COMPSCI307",
+        "COMPSCI320",
+        "COMPSCI403",
+        "COMPSCI406",
+        "COMPSCI204",
+        "MATH405"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 95,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "COMPSCI303",
+        "COMPSCI401",
+        "COMPSCI404",
+        "COMPSCI405",
+        "COMPSCI208",
+        "COMPSCI307",
+        "COMPSCI320",
+        "COMPSCI403",
+        "COMPSCI406",
+        "COMPSCI204",
+        "MATH405"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 63,
+      "legacy_rule_id": 6,
+      "major": "AMCS-Computer Science",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one course from the following two courses",
+      "courses": [
+        "COMPSCI101",
+        "STATS102"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one course from the following two courses",
+      "page": 94,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "COMPSCI101",
+        "STATS102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 64,
+      "legacy_rule_id": 7,
+      "major": "AMCS-Computer Science",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "MATH201",
+        "MATH202",
+        "MATH206",
+        "MATH302"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 94,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH201",
+        "MATH202",
+        "MATH206",
+        "MATH302"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 65,
+      "legacy_rule_id": 8,
+      "major": "AMCS-Mathematics",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one course from the following three courses",
+      "courses": [
+        "MATH403",
+        "MATH405",
+        "MATH406"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one course from the following three courses",
+      "page": 98,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH403",
+        "MATH405",
+        "MATH406"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 66,
+      "legacy_rule_id": 9,
+      "major": "AMCS-Mathematics",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one course from the following two courses",
+      "courses": [
+        "MATH401",
+        "MATH409"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one course from the following two courses",
+      "page": 98,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH401",
+        "MATH409"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 67,
+      "legacy_rule_id": 10,
+      "major": "AMCS-Mathematics",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "MATH203",
+        "MATH303",
+        "MATH307",
+        "MATH308"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 97,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH203",
+        "MATH303",
+        "MATH307",
+        "MATH308"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 68,
+      "legacy_rule_id": 11,
+      "major": "AMCS-Mathematics",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 97,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 69,
+      "legacy_rule_id": 12,
+      "major": "AMCS-Mathematics",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 2,
+      "phrase": "And choose two of the following courses (PHYS 121 and INTGSCI 205 are strongly recommended)",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121",
+        "INTGSCI205"
+      ]
+    },
+    "group": {
+      "phrase": "And choose two of the following courses (PHYS 121 and INTGSCI 205 are strongly",
+      "page": 97,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121",
+        "INTGSCI205"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 70,
+      "legacy_rule_id": 13,
+      "major": "AMCS-Mathematics",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "MATH301",
+        "STATS301",
+        "MATH306",
+        "MATH408",
+        "MATH412",
+        "MATH450",
+        "ECON317/MATH317",
+        "ECON317/MATH317",
+        "MATH404",
+        "MATH407/PHYS407",
+        "MATH407/PHYS407",
+        "ECON411/MATH411",
+        "COMPSCI413/MATH413",
+        "MATH414"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 98,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "MATH301",
+        "STATS301",
+        "MATH306",
+        "MATH408",
+        "MATH412",
+        "MATH450",
+        "MATH317",
+        "ECON317",
+        "MATH404",
+        "MATH407",
+        "PHYS407",
+        "ECON411",
+        "COMPSCI413",
+        "MATH414"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 71,
+      "legacy_rule_id": 14,
+      "major": "AMCS-Mathematics",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following three courses",
+      "courses": [
+        "COMPSCI101",
+        "STATS102",
+        "COMPSCI201"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following three courses",
+      "page": 97,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "COMPSCI101",
+        "STATS102",
+        "COMPSCI201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 72,
+      "legacy_rule_id": 15,
+      "major": "AMCS-Mathematics",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "MATH201",
+        "MATH202",
+        "MATH206",
+        "MATH302"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 97,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH201",
+        "MATH202",
+        "MATH206",
+        "MATH302"
+      ]
+    }
+  },
+  {
+    "match": "no_unique_list",
+    "rule": {
+      "rule_id": 73,
+      "legacy_rule_id": 16,
+      "major": "All Majors",
+      "category": "Common Core",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Common Core (12 Credits)",
+      "courses": [
+        "GCHINA101",
+        "GLOCHALL201",
+        "ETHLDR201"
+      ]
+    },
+    "candidate_count": 0
+  },
+  {
+    "match": "no_unique_list",
+    "rule": {
+      "rule_id": 74,
+      "legacy_rule_id": 17,
+      "major": "All Majors",
+      "category": "Signature Work",
+      "operator": "alternative",
+      "required_count": 2,
+      "phrase": "Option 1 (4+4 credits)",
+      "courses": [
+        "CAPSTONE495",
+        "CAPSTONE496"
+      ]
+    },
+    "candidate_count": 0
+  },
+  {
+    "match": "no_unique_list",
+    "rule": {
+      "rule_id": 75,
+      "legacy_rule_id": 18,
+      "major": "All Majors",
+      "category": "Signature Work",
+      "operator": "alternative",
+      "required_count": 2,
+      "phrase": "Option 2 (2+2+4 credits)",
+      "courses": [
+        "CAPSTONE495",
+        "CAPSTONE495",
+        "CAPSTONE496"
+      ]
+    },
+    "candidate_count": 0
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 79,
+      "legacy_rule_id": 24,
+      "major": "Arts and Media-Arts",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "ARTS210/HIST210"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 102,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "HIST210/ARTS210"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 80,
+      "legacy_rule_id": 25,
+      "major": "Arts and Media-Arts",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 102,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 81,
+      "legacy_rule_id": 26,
+      "major": "Arts and Media-Arts",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "MEDIART209",
+        "MEDIART490"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 102,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MEDIART209",
+        "MEDIART490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 85,
+      "legacy_rule_id": 32,
+      "major": "Arts and Media-Media",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "CULANTH201/MEDIA201",
+        "MEDIART211"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 107,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "CULANTH201/MEDIA201",
+        "MEDIART211"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 86,
+      "legacy_rule_id": 33,
+      "major": "Arts and Media-Media",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 107,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 87,
+      "legacy_rule_id": 34,
+      "major": "Arts and Media-Media",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "MEDIART209",
+        "MEDIART490"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 107,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MEDIART209",
+        "MEDIART490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 88,
+      "legacy_rule_id": 35,
+      "major": "Behavioral Science-Economics",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following courses",
+      "courses": [
+        "ECON301",
+        "ENVIR302",
+        "ECON303",
+        "ECON304",
+        "ECON305",
+        "ECON307",
+        "ECON309",
+        "ECON310",
+        "ECON314",
+        "ECON318",
+        "ECON333/SOSC333"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following courses",
+      "page": 115,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON301",
+        "ENVIR302",
+        "ECON303",
+        "ECON304",
+        "ECON305",
+        "ECON307",
+        "ECON309",
+        "ECON310",
+        "ECON314",
+        "ECON318",
+        "ECON333"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 89,
+      "legacy_rule_id": 36,
+      "major": "Behavioral Science-Economics",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "ECON101",
+        "ECON201",
+        "ECON202",
+        "ECON204"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 114,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON101",
+        "ECON201",
+        "ECON202",
+        "ECON204"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 90,
+      "legacy_rule_id": 37,
+      "major": "Behavioral Science-Economics",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following two courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following two courses",
+      "page": 114,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 91,
+      "legacy_rule_id": 38,
+      "major": "Behavioral Science-Economics",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "BIOL110",
+        "SOSC101"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 114,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "SOSC101"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 92,
+      "legacy_rule_id": 39,
+      "major": "Behavioral Science-Economics",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "COMPSCI206/ECON206",
+        "ECON211",
+        "ECON212",
+        "ECON301",
+        "ENVIR302",
+        "ECON310",
+        "STATS102",
+        "COMPSCI309/STATS302",
+        "STATS304",
+        "STATS401",
+        "STATS402"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 115,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "COMPSCI206",
+        "ECON211",
+        "ECON212",
+        "ECON301",
+        "ENVIR302",
+        "ECON310",
+        "STATS102",
+        "STATS302/COMPSCI309",
+        "STATS304",
+        "STATS401",
+        "STATS402"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 93,
+      "legacy_rule_id": 40,
+      "major": "Behavioral Science-Economics",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "BEHAVSCI101",
+        "BEHAVSCI102",
+        "BEHAVSCI201",
+        "BEHAVSCI202",
+        "BEHAVSCI401"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 114,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BEHAVSCI101",
+        "BEHAVSCI102",
+        "BEHAVSCI201",
+        "BEHAVSCI202",
+        "BEHAVSCI401"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 94,
+      "legacy_rule_id": 41,
+      "major": "Behavioral Science-Economics",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 7,
+      "phrase": "Interdisciplinary Data Analysis",
+      "courses": [
+        "ECON303",
+        "ECON309",
+        "ECON317/MATH317",
+        "MATH201",
+        "MATH202",
+        "MATH206",
+        "MATH308"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Data Analysis",
+      "page": 116,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON303",
+        "ECON309",
+        "ECON317/MATH317",
+        "MATH201",
+        "MATH202",
+        "MATH206",
+        "MATH308"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 95,
+      "legacy_rule_id": 42,
+      "major": "Behavioral Science-Neuroscience",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "NEUROSCI102",
+        "BEHAVSCI205",
+        "NEUROSCI212",
+        "NEUROSCI301",
+        "BEHAVSCI301"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 117,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "NEUROSCI102",
+        "BEHAVSCI205",
+        "NEUROSCI212",
+        "NEUROSCI301",
+        "BEHAVSCI301"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 96,
+      "legacy_rule_id": 43,
+      "major": "Behavioral Science-Neuroscience",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following two courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following two courses",
+      "page": 117,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 97,
+      "legacy_rule_id": 44,
+      "major": "Behavioral Science-Neuroscience",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "BIOL110",
+        "SOSC101"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 117,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "SOSC101"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 98,
+      "legacy_rule_id": 45,
+      "major": "Behavioral Science-Neuroscience",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "SOSC204",
+        "ECON309",
+        "ECON333/SOSC333",
+        "PUBPOL303",
+        "BEHAVSCI303/ETHLDR303",
+        "ETHLDR301",
+        "POLSCI313/PSYCH313",
+        "PSYCH110",
+        "PSYCH405",
+        "BEHAVSCI203",
+        "NEUROSCI202",
+        "GLHLTH301",
+        "PSYCH304",
+        "BEHAVSCI204",
+        "INTGSCI205"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 117,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "SOSC204",
+        "ECON309",
+        "SOSC333",
+        "PUBPOL303",
+        "BEHAVSCI303",
+        "ETHLDR301",
+        "POLSCI313",
+        "PSYCH110",
+        "PSYCH405",
+        "BEHAVSCI203",
+        "NEUROSCI202",
+        "GLHLTH301",
+        "PSYCH304",
+        "BEHAVSCI204",
+        "INTGSCI205"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 99,
+      "legacy_rule_id": 46,
+      "major": "Behavioral Science-Neuroscience",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "BEHAVSCI101",
+        "BEHAVSCI102",
+        "BEHAVSCI201",
+        "BEHAVSCI202",
+        "BEHAVSCI401"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 117,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BEHAVSCI101",
+        "BEHAVSCI102",
+        "BEHAVSCI201",
+        "BEHAVSCI202",
+        "BEHAVSCI401"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 100,
+      "legacy_rule_id": 47,
+      "major": "Behavioral Science-Psychology",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "PSYCH101",
+        "BEHAVSCI402"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 119,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PSYCH101",
+        "BEHAVSCI402"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 101,
+      "legacy_rule_id": 49,
+      "major": "Behavioral Science-Psychology",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following two courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following two courses",
+      "page": 119,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 102,
+      "legacy_rule_id": 50,
+      "major": "Behavioral Science-Psychology",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "BIOL110",
+        "SOSC101"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 119,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "SOSC101"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 103,
+      "legacy_rule_id": 51,
+      "major": "Behavioral Science-Psychology",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "SOSC204",
+        "ECON309",
+        "ECON333/SOSC333",
+        "PUBPOL303",
+        "BEHAVSCI303/ETHLDR303",
+        "ETHLDR301",
+        "POLSCI313/PSYCH313",
+        "PSYCH110",
+        "PSYCH405",
+        "BEHAVSCI203",
+        "POLSCI317/SOSC317",
+        "NEUROSCI202",
+        "GLHLTH301",
+        "PSYCH304",
+        "BEHAVSCI204",
+        "INTGSCI205"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 120,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "SOSC204",
+        "ECON309",
+        "SOSC333",
+        "PUBPOL303",
+        "BEHAVSCI303",
+        "ETHLDR301",
+        "POLSCI313",
+        "PSYCH110",
+        "PSYCH405",
+        "BEHAVSCI203",
+        "SOSC317",
+        "NEUROSCI202",
+        "GLHLTH301",
+        "PSYCH304",
+        "BEHAVSCI204",
+        "INTGSCI205"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 104,
+      "legacy_rule_id": 52,
+      "major": "Behavioral Science-Psychology",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "BEHAVSCI101",
+        "BEHAVSCI102",
+        "BEHAVSCI201",
+        "BEHAVSCI202",
+        "BEHAVSCI401"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 119,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BEHAVSCI101",
+        "BEHAVSCI102",
+        "BEHAVSCI201",
+        "BEHAVSCI202",
+        "BEHAVSCI401"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 105,
+      "legacy_rule_id": 53,
+      "major": "Computation and Design-Computer Science",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following three courses",
+      "courses": [
+        "COMPSCI306",
+        "COMPSCI310",
+        "COMPSCI311"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following three courses",
+      "page": 124,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "COMPSCI306",
+        "COMPSCI310",
+        "COMPSCI311"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 106,
+      "legacy_rule_id": 54,
+      "major": "Computation and Design-Computer Science",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "COMPSCI201",
+        "COMPSCI203",
+        "COMPSCI205",
+        "COMPSCI308"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 124,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "COMPSCI201",
+        "COMPSCI203",
+        "COMPSCI205",
+        "COMPSCI308"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 107,
+      "legacy_rule_id": 55,
+      "major": "Computation and Design-Computer Science",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following three courses",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following three courses",
+      "page": 123,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 108,
+      "legacy_rule_id": 56,
+      "major": "Computation and Design-Computer Science",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following two courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following two courses",
+      "page": 123,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 109,
+      "legacy_rule_id": 58,
+      "major": "Computation and Design-Computer Science",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "COMPSCI204",
+        "INTGSCI205",
+        "INFOSCI206",
+        "COMPSCI210",
+        "ECON211",
+        "COMPSCI302",
+        "INFOSCI302",
+        "COMPSCI303",
+        "COMPSCI304",
+        "COMPSCI307",
+        "COMPSCI320",
+        "COMPSCI401",
+        "STATS401",
+        "COMPSCI402",
+        "STATS402"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 124,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "COMPSCI204",
+        "INTGSCI205",
+        "INFOSCI206",
+        "COMPSCI210",
+        "ECON211",
+        "COMPSCI302",
+        "INFOSCI302",
+        "COMPSCI303",
+        "COMPSCI304",
+        "COMPSCI307",
+        "COMPSCI320",
+        "COMPSCI401",
+        "STATS401",
+        "COMPSCI402",
+        "STATS402"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 110,
+      "legacy_rule_id": 59,
+      "major": "Computation and Design-Computer Science",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two courses",
+      "courses": [
+        "COMPSCI101",
+        "STATS102"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two courses",
+      "page": 123,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "COMPSCI101",
+        "STATS102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 111,
+      "legacy_rule_id": 60,
+      "major": "Computation and Design-Computer Science",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "INFOSCI102",
+        "INFOSCI103",
+        "INFOSCI104/MEDIA104",
+        "INFOSCI104/MEDIA104",
+        "STATS202",
+        "COMPDSGN490"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 123,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "INFOSCI102",
+        "INFOSCI103",
+        "INFOSCI104",
+        "MEDIA104",
+        "STATS202",
+        "COMPDSGN490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 112,
+      "legacy_rule_id": 61,
+      "major": "Computation and Design-Computer Science",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "Interdisciplinary Data Analysis",
+      "courses": [
+        "STATS403"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Data Analysis",
+      "page": 125,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "STATS403"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 113,
+      "legacy_rule_id": 63,
+      "major": "Computation and Design-Digital Media",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Complete the following two courses COMPSCI 208/",
+      "courses": [
+        "COMPSCI208/MEDIART206",
+        "INFOSCI301"
+      ]
+    },
+    "group": {
+      "phrase": "Complete the following two courses",
+      "page": 126,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MEDIART206",
+        "INFOSCI301"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 114,
+      "legacy_rule_id": 64,
+      "major": "Computation and Design-Digital Media",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two courses",
+      "page": 126,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 115,
+      "legacy_rule_id": 65,
+      "major": "Computation and Design-Digital Media",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following two courses",
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following two courses",
+      "page": 126,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 116,
+      "legacy_rule_id": 66,
+      "major": "Computation and Design-Digital Media",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "And complete the following course",
+      "courses": [
+        "STATS101"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following course",
+      "page": 126,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "STATS101"
+      ]
+    }
+  },
+  {
+    "match": "no_unique_list",
+    "rule": {
+      "rule_id": 117,
+      "legacy_rule_id": 67,
+      "major": "Computation and Design-Digital Media",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "INFOSCI105",
+        "COMPSCI201",
+        "STATS201",
+        "CULANTH202/GCULS201/MEDIA202",
+        "INFOSCI206",
+        "COMPSCI210",
+        "MEDIART211",
+        "POLSCI302",
+        "INFOSCI302",
+        "LIT307",
+        "INFOSCI308",
+        "SOSC314",
+        "SOSC315"
+      ]
+    },
+    "candidate_count": 0
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 118,
+      "legacy_rule_id": 68,
+      "major": "Computation and Design-Digital Media",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two courses",
+      "courses": [
+        "COMPSCI101",
+        "STATS102"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two courses",
+      "page": 126,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "COMPSCI101",
+        "STATS102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 119,
+      "legacy_rule_id": 69,
+      "major": "Computation and Design-Digital Media",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "INFOSCI102",
+        "INFOSCI103",
+        "INFOSCI104/MEDIA104",
+        "INFOSCI104/MEDIA104",
+        "STATS202",
+        "COMPDSGN490"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 126,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "INFOSCI102",
+        "INFOSCI103",
+        "INFOSCI104",
+        "MEDIA104",
+        "STATS202",
+        "COMPDSGN490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 120,
+      "legacy_rule_id": 72,
+      "major": "Computation and Design-Social Policy",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two courses",
+      "page": 129,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 121,
+      "legacy_rule_id": 73,
+      "major": "Computation and Design-Social Policy",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "STATS101",
+        "SOSC101"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 129,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "STATS101",
+        "SOSC101"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 122,
+      "legacy_rule_id": 75,
+      "major": "Computation and Design-Social Policy",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two courses",
+      "courses": [
+        "COMPSCI101",
+        "STATS102"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two courses",
+      "page": 129,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "COMPSCI101",
+        "STATS102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 123,
+      "legacy_rule_id": 76,
+      "major": "Computation and Design-Social Policy",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "INFOSCI102",
+        "INFOSCI103",
+        "INFOSCI104/MEDIA104",
+        "INFOSCI104/MEDIA104",
+        "STATS202",
+        "COMPDSGN490"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 129,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "INFOSCI102",
+        "INFOSCI103",
+        "INFOSCI104",
+        "MEDIA104",
+        "STATS202",
+        "COMPDSGN490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 124,
+      "legacy_rule_id": 77,
+      "major": "Cultures and Societies-Cultural Anthropology",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "SOSC101",
+        "SOSC102"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 134,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "SOSC101",
+        "SOSC102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 125,
+      "legacy_rule_id": 81,
+      "major": "Cultures and Societies-Sociology",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "SOSC101",
+        "SOSC102"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 136,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "SOSC101",
+        "SOSC102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 126,
+      "legacy_rule_id": 85,
+      "major": "Cultures and Societies-Sociology",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 9,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "CULSOC101",
+        "CULSOC205/RELIG205",
+        "CULSOC201",
+        "CULSOC301",
+        "CULSOC390",
+        "CULSOC490",
+        "SOCIOL101",
+        "STATS101",
+        "SOCIOL305"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 136,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "CULSOC101",
+        "RELIG205",
+        "CULSOC201",
+        "CULSOC301",
+        "CULSOC390",
+        "CULSOC490",
+        "SOCIOL101",
+        "STATS101",
+        "SOCIOL305"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 127,
+      "legacy_rule_id": 86,
+      "major": "Data Science",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 7,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "MATH201",
+        "MATH202",
+        "MATH206",
+        "STATS211",
+        "COMPSCI301",
+        "MATH304",
+        "MATH305"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 140,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH201",
+        "MATH202",
+        "MATH206",
+        "STATS211",
+        "COMPSCI301",
+        "MATH304",
+        "MATH305"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 128,
+      "legacy_rule_id": 87,
+      "major": "Data Science",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two calculus courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two calculus courses",
+      "page": 140,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 129,
+      "legacy_rule_id": 88,
+      "major": "Data Science",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 2,
+      "phrase": "And choose two of the following courses (PHYS 121 is strongly recommended)",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121",
+        "INTGSCI205"
+      ]
+    },
+    "group": {
+      "phrase": "And choose two of the following courses (PHYS 121 is strongly recommended)",
+      "page": 140,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121",
+        "INTGSCI205"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 130,
+      "legacy_rule_id": 89,
+      "major": "Data Science",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "COMPSCI101",
+        "COMPSCI203",
+        "COMPSCI205",
+        "COMPSCI303",
+        "COMPSCI306",
+        "COMPSCI308",
+        "COMPSCI310",
+        "COMPSCI311",
+        "COMPSCI320",
+        "COMPSCI401",
+        "STATS102",
+        "STATS304",
+        "COMPSCI402",
+        "STATS403",
+        "STATS404",
+        "COMPSCI207",
+        "COMPSCI302",
+        "COMPSCI304"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 141,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "COMPSCI101",
+        "COMPSCI203",
+        "COMPSCI205",
+        "COMPSCI303",
+        "COMPSCI306",
+        "COMPSCI308",
+        "COMPSCI310",
+        "COMPSCI311",
+        "COMPSCI320",
+        "COMPSCI401",
+        "STATS102",
+        "STATS304",
+        "COMPSCI402",
+        "STATS403",
+        "STATS404",
+        "COMPSCI207",
+        "COMPSCI302",
+        "COMPSCI304"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 131,
+      "legacy_rule_id": 90,
+      "major": "Data Science",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "COMPSCI201",
+        "COMPSCI309/STATS302",
+        "STATS303",
+        "STATS401",
+        "STATS402"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 140,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "COMPSCI201",
+        "STATS302/COMPSCI309",
+        "STATS303",
+        "STATS401",
+        "STATS402"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 132,
+      "legacy_rule_id": 91,
+      "major": "Data Science",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "Interdisciplinary Data Analytics",
+      "courses": [
+        "ECON211"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Data Analytics",
+      "page": 142,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON211"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 133,
+      "legacy_rule_id": 94,
+      "major": "Environmental Science-Biogeochemistry",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "BIOL208"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 145,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL208"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 134,
+      "legacy_rule_id": 95,
+      "major": "Environmental Science-Biogeochemistry",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 145,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 135,
+      "legacy_rule_id": 96,
+      "major": "Environmental Science-Biogeochemistry",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 145,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 136,
+      "legacy_rule_id": 97,
+      "major": "Environmental Science-Biogeochemistry",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "BIOL318",
+        "BIOL405",
+        "ENVIR202",
+        "BIOL312",
+        "ENVIR310",
+        "ENVIR306",
+        "CHEM315/ENVIR315",
+        "BIOL319",
+        "ENVIR310",
+        "ENVIR303",
+        "PUBPOL308",
+        "SOSC204",
+        "INFOSCI302",
+        "BIOL314",
+        "INTGSCI205"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 146,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "BIOL318",
+        "BIOL405",
+        "ENVIR202",
+        "BIOL312",
+        "ENVIR310",
+        "ENVIR306",
+        "CHEM315",
+        "BIOL319",
+        "ENVIR310",
+        "ENVIR303",
+        "PUBPOL308",
+        "SOSC204",
+        "INFOSCI302",
+        "BIOL314",
+        "INTGSCI205"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 137,
+      "legacy_rule_id": 99,
+      "major": "Environmental Science-Biogeochemistry",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "ENVIR101",
+        "ENVIR102",
+        "ENVIR201"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 145,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ENVIR101",
+        "ENVIR102",
+        "ENVIR201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 138,
+      "legacy_rule_id": 100,
+      "major": "Environmental Science-Biology",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following two courses",
+      "courses": [
+        "STATS101",
+        "MATH206"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following two courses",
+      "page": 149,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "STATS101",
+        "MATH206"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 139,
+      "legacy_rule_id": 101,
+      "major": "Environmental Science-Biology",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 6,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "BIOL201",
+        "CHEM201",
+        "BIOL208",
+        "BIOL212",
+        "BIOL202",
+        "BIOL305"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 148,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL201",
+        "CHEM201",
+        "BIOL208",
+        "BIOL212",
+        "BIOL202",
+        "BIOL305"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 140,
+      "legacy_rule_id": 102,
+      "major": "Environmental Science-Biology",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 148,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 141,
+      "legacy_rule_id": 103,
+      "major": "Environmental Science-Biology",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 148,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 142,
+      "legacy_rule_id": 104,
+      "major": "Environmental Science-Biology",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "BIOL203/GCULS203",
+        "SOSC204",
+        "GLHLTH301",
+        "INFOSCI302",
+        "GLHLTH306",
+        "ENVIR306",
+        "BIOL308",
+        "BIOL310",
+        "BIOL314",
+        "PUBPOL317",
+        "ECON404/ENVIR404",
+        "BIOL409/GLHLTH409",
+        "BIOL410/GLHLTH410",
+        "BIOL411/GLHLTH411",
+        "INTGSCI205"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 149,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "BIOL203/GCULS203",
+        "SOSC204",
+        "GLHLTH301",
+        "INFOSCI302",
+        "GLHLTH306",
+        "ENVIR306",
+        "BIOL308",
+        "BIOL310",
+        "BIOL314",
+        "PUBPOL317",
+        "ECON404",
+        "GLHLTH409",
+        "GLHLTH410",
+        "GLHLTH411",
+        "INTGSCI205"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 143,
+      "legacy_rule_id": 106,
+      "major": "Environmental Science-Biology",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "ENVIR101",
+        "ENVIR102",
+        "ENVIR201"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 148,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ENVIR101",
+        "ENVIR102",
+        "ENVIR201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 144,
+      "legacy_rule_id": 107,
+      "major": "Environmental Science-Chemistry",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 8,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "PHYS122",
+        "CHEM150",
+        "MATH201",
+        "CHEM201",
+        "CHEM202",
+        "CHEM301",
+        "CHEM401",
+        "CHEM402"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 151,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PHYS122",
+        "CHEM150",
+        "MATH201",
+        "CHEM201",
+        "CHEM202",
+        "CHEM301",
+        "CHEM401",
+        "CHEM402"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 145,
+      "legacy_rule_id": 108,
+      "major": "Environmental Science-Chemistry",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 151,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 146,
+      "legacy_rule_id": 109,
+      "major": "Environmental Science-Chemistry",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 151,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 147,
+      "legacy_rule_id": 110,
+      "major": "Environmental Science-Chemistry",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "ENVIR306",
+        "BIOL311/ENVIR311",
+        "BIOL311/ENVIR311",
+        "ENVIR402",
+        "CHEM315/ENVIR315",
+        "CHEM315/ENVIR315",
+        "ENVIR203",
+        "SOSC204",
+        "ENVIR303",
+        "PUBPOL317",
+        "BIOL313/ENVIR313",
+        "BIOL313/ENVIR313",
+        "ECON404/ENVIR404",
+        "ECON404/ENVIR404",
+        "CHEM403",
+        "INTGSCI205"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 152,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "ENVIR306",
+        "ENVIR311",
+        "BIOL311",
+        "ENVIR402",
+        "ENVIR315",
+        "CHEM315",
+        "ENVIR203",
+        "SOSC204",
+        "ENVIR303",
+        "PUBPOL317",
+        "ENVIR313",
+        "BIOL313",
+        "ENVIR404",
+        "ECON404",
+        "CHEM403",
+        "INTGSCI205"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 148,
+      "legacy_rule_id": 111,
+      "major": "Environmental Science-Chemistry",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "choose one of the following two courses",
+      "courses": [
+        "ENVIR304",
+        "ENVIR202"
+      ]
+    },
+    "group": {
+      "phrase": "choose one of the following two courses",
+      "page": 151,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ENVIR304",
+        "ENVIR202"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 149,
+      "legacy_rule_id": 112,
+      "major": "Environmental Science-Chemistry",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "choose one of the following two courses ENVIR 302/",
+      "courses": [
+        "ECON302",
+        "ENVIR301"
+      ]
+    },
+    "group": {
+      "phrase": "choose one of the following two courses",
+      "page": 151,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON302",
+        "ENVIR301"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 150,
+      "legacy_rule_id": 113,
+      "major": "Environmental Science-Chemistry",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "ENVIR101",
+        "ENVIR102",
+        "ENVIR201"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 151,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ENVIR101",
+        "ENVIR102",
+        "ENVIR201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 151,
+      "legacy_rule_id": 114,
+      "major": "Environmental Science-Public Policy",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one course from the following two courses",
+      "courses": [
+        "ECON201",
+        "PUBPOL205"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one course from the following two courses",
+      "page": 155,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON201",
+        "PUBPOL205"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 152,
+      "legacy_rule_id": 115,
+      "major": "Environmental Science-Public Policy",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "STATS101",
+        "PUBPOL101",
+        "PUBPOL301",
+        "PUBPOL303"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 154,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "STATS101",
+        "PUBPOL101",
+        "PUBPOL301",
+        "PUBPOL303"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 153,
+      "legacy_rule_id": 116,
+      "major": "Environmental Science-Public Policy",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 154,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 154,
+      "legacy_rule_id": 117,
+      "major": "Environmental Science-Public Policy",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "SOSC101",
+        "SOSC102",
+        "BIOL110",
+        "CHEM110"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 154,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "SOSC101",
+        "SOSC102",
+        "BIOL110",
+        "CHEM110"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 155,
+      "legacy_rule_id": 118,
+      "major": "Environmental Science-Public Policy",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "ENVIR206",
+        "PUBPOL201",
+        "ENVIR303",
+        "ENVIR403",
+        "GCULS108",
+        "HIST123",
+        "SOSC204",
+        "PUBPOL209",
+        "PUBPOL220",
+        "PUBPOL318",
+        "HIST316/PUBPOL316",
+        "ECON404/ENVIR404",
+        "ECON404/ENVIR404",
+        "PUBPOL202",
+        "ENVIR204",
+        "ENVIR305",
+        "POLSCI317/SOSC317",
+        "ENVIR306",
+        "PUBPOL308",
+        "PUBPOL317",
+        "ENVIR203",
+        "WOC206",
+        "INFOSCI302"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 155,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "ENVIR206",
+        "PUBPOL201",
+        "ENVIR303",
+        "ENVIR403",
+        "GCULS108",
+        "HIST123",
+        "SOSC204",
+        "PUBPOL209",
+        "PUBPOL220",
+        "PUBPOL318",
+        "PUBPOL316",
+        "ENVIR404",
+        "ECON404",
+        "PUBPOL202",
+        "ENVIR204",
+        "ENVIR305",
+        "SOSC317",
+        "ENVIR306",
+        "PUBPOL308",
+        "PUBPOL317",
+        "ENVIR203",
+        "WOC206",
+        "INFOSCI302"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 156,
+      "legacy_rule_id": 119,
+      "major": "Environmental Science-Public Policy",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "choose one of the following two courses",
+      "courses": [
+        "ENVIR304",
+        "ENVIR202"
+      ]
+    },
+    "group": {
+      "phrase": "choose one of the following two courses",
+      "page": 154,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ENVIR304",
+        "ENVIR202"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 157,
+      "legacy_rule_id": 120,
+      "major": "Environmental Science-Public Policy",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "choose one of the following two courses ENVIR 302/",
+      "courses": [
+        "ECON302",
+        "ENVIR301"
+      ]
+    },
+    "group": {
+      "phrase": "choose one of the following two courses",
+      "page": 154,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON302",
+        "ENVIR301"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 158,
+      "legacy_rule_id": 121,
+      "major": "Environmental Science-Public Policy",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "ENVIR101",
+        "ENVIR102",
+        "ENVIR201"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 154,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ENVIR101",
+        "ENVIR102",
+        "ENVIR201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 159,
+      "legacy_rule_id": 122,
+      "major": "Global China Studies",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following courses",
+      "courses": [
+        "HIST201",
+        "SOSC102",
+        "SOSC206",
+        "STATS101",
+        "ARTS203/GCHINA203",
+        "MEDIART208",
+        "POLSCI303",
+        "POLSCI398-2",
+        "POLSCI316",
+        "HIST301",
+        "RELIG302",
+        "GCHINA204",
+        "GCHINA206",
+        "HIST205",
+        "LIT310"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following courses",
+      "page": 158,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "HIST201",
+        "SOSC102",
+        "SOSC206",
+        "STATS101",
+        "GCHINA203/ARTS203",
+        "MEDIART208",
+        "POLSCI303",
+        "POLSCI398-2",
+        "POLSCI316",
+        "HIST301",
+        "RELIG302",
+        "GCHINA204",
+        "GCHINA206",
+        "HIST205",
+        "LIT310"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 160,
+      "legacy_rule_id": 123,
+      "major": "Global China Studies",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "GCHINA202",
+        "GCHINA306",
+        "CHINESE402A",
+        "CHINESE402B"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 158,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "GCHINA202",
+        "GCHINA306",
+        "CHINESE402A",
+        "CHINESE402B"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 161,
+      "legacy_rule_id": 124,
+      "major": "Global China Studies",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "SOSC101",
+        "ARHU101"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 158,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "SOSC101",
+        "ARHU101"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 162,
+      "legacy_rule_id": 125,
+      "major": "Global China Studies",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "GCHINA108",
+        "GCHINA205",
+        "GCHINA305",
+        "GCHINA390",
+        "GCHINA490"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 158,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "GCHINA108",
+        "GCHINA205",
+        "GCHINA305",
+        "GCHINA390",
+        "GCHINA490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 163,
+      "legacy_rule_id": 126,
+      "major": "Global Health-Biology",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following courses",
+      "courses": [
+        "STATS101",
+        "MATH206"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following courses",
+      "page": 162,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "STATS101",
+        "MATH206"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 164,
+      "legacy_rule_id": 127,
+      "major": "Global Health-Biology",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 6,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "CHEM201",
+        "BIOL201",
+        "BIOL202",
+        "BIOL208",
+        "BIOL212",
+        "BIOL305"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 162,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "CHEM201",
+        "BIOL201",
+        "BIOL202",
+        "BIOL208",
+        "BIOL212",
+        "BIOL305"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 165,
+      "legacy_rule_id": 128,
+      "major": "Global Health-Biology",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "GLHLTH301",
+        "GLHLTH311",
+        "INFOSCI302",
+        "BIOL203/GCULS203",
+        "BIOL308",
+        "HIST212",
+        "INTGSCI205",
+        "GLHLTH301",
+        "BIOL306",
+        "BIOL307",
+        "BIOL308",
+        "BIOL310",
+        "BIOL321",
+        "BIOL409/GLHLTH409",
+        "BIOL410/GLHLTH410",
+        "BIOL411/GLHLTH411",
+        "GLHLTH202",
+        "GLHLTH301",
+        "GLHLTH312",
+        "PUBPOL220",
+        "PUBPOL318",
+        "GLHLTH301",
+        "CULANTH303",
+        "ECON301",
+        "GCULS301",
+        "ETHLDR206",
+        "BIOL320",
+        "ENVIR101",
+        "GLHLTH280",
+        "ETHLDR204",
+        "ENVIR204",
+        "ENVIR304",
+        "ENVIR402",
+        "ENVIR306",
+        "PUBPOL317"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 162,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "GLHLTH301",
+        "GLHLTH311",
+        "INFOSCI302",
+        "GCULS203",
+        "BIOL308",
+        "HIST212",
+        "INTGSCI205",
+        "GLHLTH301",
+        "BIOL306",
+        "BIOL307",
+        "BIOL308",
+        "BIOL310",
+        "BIOL321",
+        "GLHLTH409",
+        "GLHLTH410",
+        "GLHLTH411",
+        "GLHLTH202",
+        "GLHLTH301",
+        "GLHLTH312",
+        "PUBPOL220",
+        "PUBPOL318",
+        "GLHLTH301",
+        "CULANTH303",
+        "ECON301",
+        "GCULS301",
+        "ETHLDR206",
+        "BIOL320",
+        "ENVIR101",
+        "GLHLTH280",
+        "ETHLDR204",
+        "ENVIR204",
+        "ENVIR304",
+        "ENVIR402",
+        "ENVIR306",
+        "PUBPOL317"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 166,
+      "legacy_rule_id": 129,
+      "major": "Global Health-Biology",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following four courses",
+      "courses": [
+        "GLHLTH280",
+        "GLHLTH305",
+        "GLHLTH306",
+        "GLHLTH307"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following four courses",
+      "page": 161,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "GLHLTH280",
+        "GLHLTH305",
+        "GLHLTH306",
+        "GLHLTH307"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 167,
+      "legacy_rule_id": 130,
+      "major": "Global Health-Biology",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following three courses",
+      "courses": [
+        "GLHLTH310",
+        "GLHLTH303",
+        "GLHLTH304"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following three courses",
+      "page": 161,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "GLHLTH310",
+        "GLHLTH303",
+        "GLHLTH304"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 168,
+      "legacy_rule_id": 131,
+      "major": "Global Health-Biology",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 161,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 169,
+      "legacy_rule_id": 132,
+      "major": "Global Health-Biology",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "GLHLTH101",
+        "GLHLTH201",
+        "GLHLTH205"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 161,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "GLHLTH101",
+        "GLHLTH201",
+        "GLHLTH205"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 170,
+      "legacy_rule_id": 133,
+      "major": "Global Health-Biology",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 161,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 171,
+      "legacy_rule_id": 135,
+      "major": "Global Health-Public Policy",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one course from the following two courses",
+      "courses": [
+        "ECON201",
+        "PUBPOL205"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one course from the following two courses",
+      "page": 166,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON201",
+        "PUBPOL205"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 172,
+      "legacy_rule_id": 136,
+      "major": "Global Health-Public Policy",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "SOSC101",
+        "SOSC102",
+        "BIOL110"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 165,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "SOSC101",
+        "SOSC102",
+        "BIOL110"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 173,
+      "legacy_rule_id": 137,
+      "major": "Global Health-Public Policy",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "GLHLTH301",
+        "GLHLTH311",
+        "GLHLTH312",
+        "INFOSCI302",
+        "BIOL203/GCULS203",
+        "BIOL308",
+        "HIST212",
+        "INTGSCI205",
+        "GLHLTH301",
+        "BIOL306",
+        "BIOL307",
+        "BIOL308",
+        "BIOL310",
+        "BIOL410/GLHLTH410",
+        "BIOL411/GLHLTH411",
+        "GLHLTH301",
+        "GLHLTH202",
+        "PUBPOL220",
+        "PUBPOL318",
+        "GLHLTH301",
+        "CULANTH303",
+        "ECON301",
+        "GCULS301",
+        "ETHLDR206",
+        "BIOL320",
+        "ENVIR101",
+        "GLHLTH280",
+        "ETHLDR204",
+        "ENVIR204",
+        "ENVIR304",
+        "ENVIR402",
+        "ENVIR306",
+        "PUBPOL317"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 166,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "GLHLTH301",
+        "GLHLTH311",
+        "GLHLTH312",
+        "INFOSCI302",
+        "GCULS203",
+        "BIOL308",
+        "HIST212",
+        "INTGSCI205",
+        "GLHLTH301",
+        "BIOL306",
+        "BIOL307",
+        "BIOL308",
+        "BIOL310",
+        "GLHLTH410",
+        "GLHLTH411",
+        "GLHLTH301",
+        "GLHLTH202",
+        "PUBPOL220",
+        "PUBPOL318",
+        "GLHLTH301",
+        "CULANTH303",
+        "ECON301",
+        "GCULS301",
+        "ETHLDR206",
+        "BIOL320",
+        "ENVIR101",
+        "GLHLTH280",
+        "ETHLDR204",
+        "ENVIR204",
+        "ENVIR304",
+        "ENVIR402",
+        "ENVIR306",
+        "PUBPOL317"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 174,
+      "legacy_rule_id": 138,
+      "major": "Global Health-Public Policy",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following four courses",
+      "courses": [
+        "GLHLTH280",
+        "GLHLTH305",
+        "GLHLTH306",
+        "GLHLTH307"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following four courses",
+      "page": 165,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "GLHLTH280",
+        "GLHLTH305",
+        "GLHLTH306",
+        "GLHLTH307"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 175,
+      "legacy_rule_id": 139,
+      "major": "Global Health-Public Policy",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following three courses",
+      "courses": [
+        "GLHLTH310",
+        "GLHLTH303",
+        "GLHLTH304"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following three courses",
+      "page": 165,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "GLHLTH310",
+        "GLHLTH303",
+        "GLHLTH304"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 176,
+      "legacy_rule_id": 140,
+      "major": "Global Health-Public Policy",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "GLHLTH101",
+        "GLHLTH201",
+        "GLHLTH205"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 165,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "GLHLTH101",
+        "GLHLTH201",
+        "GLHLTH205"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 177,
+      "legacy_rule_id": 141,
+      "major": "Humanities-Creative Writing and Translation",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "LIT216"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 171,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "LIT216"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 178,
+      "legacy_rule_id": 142,
+      "major": "Humanities-Creative Writing and Translation",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 171,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 179,
+      "legacy_rule_id": 145,
+      "major": "Humanities-Creative Writing and Translation",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "HUM301",
+        "HUM490"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 171,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "HUM301",
+        "HUM490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 180,
+      "legacy_rule_id": 146,
+      "major": "Humanities-Literature",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "LIT214"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 173,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "LIT214"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 181,
+      "legacy_rule_id": 147,
+      "major": "Humanities-Literature",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 173,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 182,
+      "legacy_rule_id": 150,
+      "major": "Humanities-Literature",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "HUM301",
+        "HUM490"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 173,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "HUM301",
+        "HUM490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 183,
+      "legacy_rule_id": 151,
+      "major": "Humanities-Philosophy and Religion",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "HUM201"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 175,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "HUM201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 184,
+      "legacy_rule_id": 152,
+      "major": "Humanities-Philosophy and Religion",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 175,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 185,
+      "legacy_rule_id": 155,
+      "major": "Humanities-Philosophy and Religion",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "HUM301",
+        "HUM490"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 175,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "HUM301",
+        "HUM490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 186,
+      "legacy_rule_id": 156,
+      "major": "Humanities-World History",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "HIST201"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 177,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "HIST201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 187,
+      "legacy_rule_id": 157,
+      "major": "Humanities-World History",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 177,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ARHU101",
+        "ARHU102"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 188,
+      "legacy_rule_id": 160,
+      "major": "Humanities-World History",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "HUM301",
+        "HUM490"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 177,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "HUM301",
+        "HUM490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 189,
+      "legacy_rule_id": 161,
+      "major": "Materials Science-Chemistry",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 7,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "PHYS122",
+        "CHEM150",
+        "MATH201",
+        "CHEM202",
+        "CHEM301",
+        "CHEM401",
+        "CHEM402"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 180,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PHYS122",
+        "CHEM150",
+        "MATH201",
+        "CHEM202",
+        "CHEM301",
+        "CHEM401",
+        "CHEM402"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 190,
+      "legacy_rule_id": 162,
+      "major": "Materials Science-Chemistry",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 180,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 191,
+      "legacy_rule_id": 163,
+      "major": "Materials Science-Chemistry",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 180,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 192,
+      "legacy_rule_id": 164,
+      "major": "Materials Science-Chemistry",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "MATSCI101",
+        "INTGSCI205",
+        "CHEM403",
+        "ENVIR304",
+        "CHEM315/ENVIR315",
+        "ENVIR402",
+        "MATSCI303",
+        "MATSCI402",
+        "PHYS402",
+        "PHYS310",
+        "MATSCI403",
+        "MATSCI404",
+        "PHYS408",
+        "CHEM410"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 181,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "MATSCI101",
+        "INTGSCI205",
+        "CHEM403",
+        "ENVIR304",
+        "ENVIR315",
+        "ENVIR402",
+        "MATSCI303",
+        "MATSCI402",
+        "PHYS402",
+        "PHYS310",
+        "MATSCI403",
+        "MATSCI404",
+        "PHYS408",
+        "CHEM410"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 193,
+      "legacy_rule_id": 165,
+      "major": "Materials Science-Chemistry",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "CHEM201",
+        "MATSCI201",
+        "MATSCI301",
+        "MATSCI302",
+        "MATSCI401"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 180,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "CHEM201",
+        "MATSCI201",
+        "MATSCI301",
+        "MATSCI302",
+        "MATSCI401"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 194,
+      "legacy_rule_id": 166,
+      "major": "Materials Science-Physics",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 2,
+      "phrase": "And choose two from the following courses",
+      "courses": [
+        "PHYS301",
+        "PHYS304",
+        "PHYS306"
+      ]
+    },
+    "group": {
+      "phrase": "And choose two from the following courses",
+      "page": 183,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PHYS301",
+        "PHYS304",
+        "PHYS306"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 195,
+      "legacy_rule_id": 167,
+      "major": "Materials Science-Physics",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 6,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "PHYS122",
+        "MATH201",
+        "PHYS201",
+        "MATH202",
+        "PHYS302",
+        "PHYS405"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 183,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PHYS122",
+        "MATH201",
+        "PHYS201",
+        "MATH202",
+        "PHYS302",
+        "PHYS405"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 196,
+      "legacy_rule_id": 168,
+      "major": "Materials Science-Physics",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 182,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 197,
+      "legacy_rule_id": 169,
+      "major": "Materials Science-Physics",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 182,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 198,
+      "legacy_rule_id": 170,
+      "major": "Materials Science-Physics",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "MATSCI101",
+        "INTGSCI205",
+        "PHYS101",
+        "PHYS134",
+        "PHYS403",
+        "COMPSCI201",
+        "MATSCI202",
+        "MATH206",
+        "MATH303",
+        "PHYS404",
+        "PHYS408",
+        "MATSCI303",
+        "PHYS310",
+        "MATSCI402",
+        "PHYS402",
+        "MATSCI403",
+        "MATSCI404"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 183,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "MATSCI101",
+        "INTGSCI205",
+        "PHYS101",
+        "PHYS134",
+        "PHYS403",
+        "COMPSCI201",
+        "MATSCI202",
+        "MATH206",
+        "MATH303",
+        "PHYS404",
+        "PHYS408",
+        "MATSCI303",
+        "PHYS310",
+        "MATSCI402",
+        "PHYS402",
+        "MATSCI403",
+        "MATSCI404"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 199,
+      "legacy_rule_id": 171,
+      "major": "Materials Science-Physics",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "CHEM201",
+        "MATSCI201",
+        "MATSCI301",
+        "MATSCI302",
+        "MATSCI401"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 182,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "CHEM201",
+        "MATSCI201",
+        "MATSCI301",
+        "MATSCI302",
+        "MATSCI401"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 200,
+      "legacy_rule_id": 173,
+      "major": "Molecular Bioscience-Biogeochemistry",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 188,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 201,
+      "legacy_rule_id": 174,
+      "major": "Molecular Bioscience-Biogeochemistry",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "ENVIR102",
+        "BIOL208"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 188,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ENVIR102",
+        "BIOL208"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 202,
+      "legacy_rule_id": 175,
+      "major": "Molecular Bioscience-Biogeochemistry",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121",
+        "BIOL311/ENVIR311"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 188,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121",
+        "ENVIR311"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 203,
+      "legacy_rule_id": 176,
+      "major": "Molecular Bioscience-Biogeochemistry",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "BIOL318",
+        "BIOL405",
+        "ENVIR102",
+        "ENVIR202",
+        "ENVIR304"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 189,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "BIOL318",
+        "BIOL405",
+        "ENVIR102",
+        "ENVIR202",
+        "ENVIR304"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 204,
+      "legacy_rule_id": 177,
+      "major": "Molecular Bioscience-Biogeochemistry",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "CHEM201",
+        "PHYS303",
+        "BIOL305",
+        "BIOL320"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 188,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "CHEM201",
+        "PHYS303",
+        "BIOL305",
+        "BIOL320"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 205,
+      "legacy_rule_id": 179,
+      "major": "Molecular Bioscience-Biophysics",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 190,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 206,
+      "legacy_rule_id": 180,
+      "major": "Molecular Bioscience-Biophysics",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 2,
+      "phrase": "And choose two courses from the following four courses",
+      "courses": [
+        "PHYS301",
+        "PHYS304",
+        "PHYS306",
+        "PHYS404"
+      ]
+    },
+    "group": {
+      "phrase": "And choose two courses from the following four courses",
+      "page": 191,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PHYS301",
+        "PHYS304",
+        "PHYS306",
+        "PHYS404"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 207,
+      "legacy_rule_id": 181,
+      "major": "Molecular Bioscience-Biophysics",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "PHYS122",
+        "MATH201",
+        "PHYS201",
+        "MATH202",
+        "PHYS302"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 190,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PHYS122",
+        "MATH201",
+        "PHYS201",
+        "MATH202",
+        "PHYS302"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 208,
+      "legacy_rule_id": 182,
+      "major": "Molecular Bioscience-Biophysics",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121",
+        "PHYS406"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 190,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121",
+        "PHYS406"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 209,
+      "legacy_rule_id": 183,
+      "major": "Molecular Bioscience-Biophysics",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "INTGSCI205",
+        "BIOL316",
+        "NEUROSCI202",
+        "NEUROSCI212",
+        "MATH303",
+        "PHYS310",
+        "MATH403",
+        "MATH410",
+        "CHEM404"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 191,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "INTGSCI205",
+        "BIOL316",
+        "NEUROSCI202",
+        "NEUROSCI212",
+        "MATH303",
+        "PHYS310",
+        "MATH403",
+        "MATH410",
+        "CHEM404"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 210,
+      "legacy_rule_id": 184,
+      "major": "Molecular Bioscience-Biophysics",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "CHEM201",
+        "PHYS303",
+        "BIOL305",
+        "BIOL320"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 190,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "CHEM201",
+        "PHYS303",
+        "BIOL305",
+        "BIOL320"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 211,
+      "legacy_rule_id": 186,
+      "major": "Molecular Bioscience-Cell and Molecular Biology",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 192,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 212,
+      "legacy_rule_id": 187,
+      "major": "Molecular Bioscience-Cell and Molecular Biology",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "BIOL201",
+        "BIOL212"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 192,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL201",
+        "BIOL212"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 213,
+      "legacy_rule_id": 189,
+      "major": "Molecular Bioscience-Cell and Molecular Biology",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121",
+        "STATS101",
+        "MATH206"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 192,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121",
+        "STATS101",
+        "MATH206"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 214,
+      "legacy_rule_id": 190,
+      "major": "Molecular Bioscience-Cell and Molecular Biology",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "INTGSCI205",
+        "BIOL203/GCULS203",
+        "BIOL307",
+        "BIOL310",
+        "BIOL314",
+        "BIOL317",
+        "BIOL401",
+        "BIOL409/GLHLTH409",
+        "BIOL410/GLHLTH410",
+        "BIOL314",
+        "CHEM404",
+        "NEUROSCI102",
+        "NEUROSCI202"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 193,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "INTGSCI205",
+        "BIOL203",
+        "BIOL307",
+        "BIOL310",
+        "BIOL314",
+        "BIOL317",
+        "BIOL401",
+        "GLHLTH409",
+        "GLHLTH410",
+        "BIOL314",
+        "CHEM404",
+        "NEUROSCI102",
+        "NEUROSCI202"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 215,
+      "legacy_rule_id": 191,
+      "major": "Molecular Bioscience-Cell and Molecular Biology",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "CHEM201",
+        "BIOL202",
+        "PHYS303",
+        "BIOL305",
+        "BIOL320"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 192,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "CHEM201",
+        "BIOL202",
+        "PHYS303",
+        "BIOL305",
+        "BIOL320"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 216,
+      "legacy_rule_id": 192,
+      "major": "Molecular Bioscience-Genetics and Genomics",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 195,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 217,
+      "legacy_rule_id": 193,
+      "major": "Molecular Bioscience-Genetics and Genomics",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following courses",
+      "courses": [
+        "STATS101",
+        "MATH206"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following courses",
+      "page": 196,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "STATS101",
+        "MATH206"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 218,
+      "legacy_rule_id": 194,
+      "major": "Molecular Bioscience-Genetics and Genomics",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "BIOL201"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 195,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 219,
+      "legacy_rule_id": 196,
+      "major": "Molecular Bioscience-Genetics and Genomics",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 195,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 220,
+      "legacy_rule_id": 197,
+      "major": "Molecular Bioscience-Genetics and Genomics",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "INTGSCI205",
+        "BIOL203/GCULS203",
+        "BIOL212",
+        "NEUROSCI301",
+        "BIOL310",
+        "BIOL315",
+        "BIOL317",
+        "BIOL404",
+        "BIOL409/GLHLTH409",
+        "BIOL314",
+        "ENVIR202"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 196,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "INTGSCI205",
+        "BIOL203",
+        "BIOL212",
+        "NEUROSCI301",
+        "BIOL310",
+        "BIOL315",
+        "BIOL317",
+        "BIOL404",
+        "GLHLTH409",
+        "BIOL314",
+        "ENVIR202"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 221,
+      "legacy_rule_id": 198,
+      "major": "Molecular Bioscience-Genetics and Genomics",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "CHEM201",
+        "BIOL202",
+        "PHYS303",
+        "BIOL305",
+        "BIOL320"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 195,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "CHEM201",
+        "BIOL202",
+        "PHYS303",
+        "BIOL305",
+        "BIOL320"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 222,
+      "legacy_rule_id": 199,
+      "major": "Molecular Bioscience-Neuroscience",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "Choose one of the following two Math courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "Choose one of the following two Math courses",
+      "page": 197,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 223,
+      "legacy_rule_id": 200,
+      "major": "Molecular Bioscience-Neuroscience",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "NEUROSCI102",
+        "BEHAVSCI205",
+        "NEUROSCI212",
+        "NEUROSCI301",
+        "BEHAVSCI301"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 197,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "NEUROSCI102",
+        "BEHAVSCI205",
+        "NEUROSCI212",
+        "NEUROSCI301",
+        "BEHAVSCI301"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 224,
+      "legacy_rule_id": 201,
+      "major": "Molecular Bioscience-Neuroscience",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "And complete the following courses",
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following courses",
+      "page": 197,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "BIOL110",
+        "CHEM110",
+        "PHYS121"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 225,
+      "legacy_rule_id": 202,
+      "major": "Molecular Bioscience-Neuroscience",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "INTGSCI205",
+        "BIOL203/GCULS203",
+        "BIOL307",
+        "BIOL310",
+        "BIOL314",
+        "BIOL317",
+        "BIOL401",
+        "BIOL409/GLHLTH409",
+        "BIOL410/GLHLTH410",
+        "BIOL411/GLHLTH411",
+        "BIOL314",
+        "CHEM404"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 198,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "INTGSCI205",
+        "BIOL203",
+        "BIOL307",
+        "BIOL310",
+        "BIOL314",
+        "BIOL317",
+        "BIOL401",
+        "GLHLTH409",
+        "GLHLTH410",
+        "GLHLTH411",
+        "BIOL314",
+        "CHEM404"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 226,
+      "legacy_rule_id": 203,
+      "major": "Molecular Bioscience-Neuroscience",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "CHEM201",
+        "BIOL202",
+        "PHYS303",
+        "BIOL305",
+        "BIOL320"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 197,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "CHEM201",
+        "BIOL202",
+        "PHYS303",
+        "BIOL305",
+        "BIOL320"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 227,
+      "legacy_rule_id": 204,
+      "major": "PPE-Economic History",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following courses",
+      "courses": [
+        "HIST201"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following courses",
+      "page": 200,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "HIST201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 228,
+      "legacy_rule_id": 205,
+      "major": "PPE-Economic History",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following courses GCHINA 301/POLECON China’s Economic Transition 4",
+      "courses": [
+        "POLECON301",
+        "ECON307"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following courses",
+      "page": 200,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "POLECON301",
+        "ECON307"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 229,
+      "legacy_rule_id": 206,
+      "major": "PPE-Economic History",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "HIST227",
+        "ECON204",
+        "ECON212"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 200,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "HIST227",
+        "ECON204",
+        "ECON212"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 230,
+      "legacy_rule_id": 207,
+      "major": "PPE-Economic History",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "SOSC101",
+        "SOSC102",
+        "STATS101"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 200,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "SOSC101",
+        "SOSC102",
+        "STATS101"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 231,
+      "legacy_rule_id": 208,
+      "major": "PPE-Economic History",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "ECON301",
+        "ENVIR302",
+        "ECON303",
+        "ECON304",
+        "ECON310",
+        "ECON314",
+        "HIST228",
+        "HIST229",
+        "HIST309",
+        "POLECON201",
+        "STATS201"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 201,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "ECON301",
+        "ENVIR302",
+        "ECON303",
+        "ECON304",
+        "ECON310",
+        "ECON314",
+        "HIST228",
+        "HIST229",
+        "HIST309",
+        "POLECON201",
+        "STATS201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 232,
+      "legacy_rule_id": 209,
+      "major": "PPE-Economic History",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "PPE101",
+        "ECON101",
+        "ECON201",
+        "PUBPOL303",
+        "PPE490"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 200,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PPE101",
+        "ECON101",
+        "ECON201",
+        "PUBPOL303",
+        "PPE490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 233,
+      "legacy_rule_id": 210,
+      "major": "PPE-Philosophy",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following courses",
+      "courses": [
+        "PHIL205",
+        "PHIL305",
+        "PHIL309"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following courses",
+      "page": 202,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PHIL205",
+        "PHIL305",
+        "PHIL309"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 234,
+      "legacy_rule_id": 211,
+      "major": "PPE-Philosophy",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "PHIL398"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 202,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PHIL398"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 235,
+      "legacy_rule_id": 212,
+      "major": "PPE-Philosophy",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "SOSC101",
+        "ARHU101"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 202,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "SOSC101",
+        "ARHU101"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 236,
+      "legacy_rule_id": 213,
+      "major": "PPE-Philosophy",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "BIOL320",
+        "ECON225/HIST225",
+        "ETHLDR204",
+        "HUM201",
+        "GLHLTH201",
+        "LIT315",
+        "PHIL112",
+        "PHIL115",
+        "PHIL303",
+        "POLSCI223",
+        "POLSCI398-1",
+        "SOCIOL305"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 202,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "BIOL320",
+        "ECON225/HIST225",
+        "ETHLDR204",
+        "HUM201",
+        "GLHLTH201",
+        "LIT315",
+        "PHIL112",
+        "PHIL115",
+        "PHIL303",
+        "POLSCI223",
+        "POLSCI398-1",
+        "SOCIOL305"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 237,
+      "legacy_rule_id": 214,
+      "major": "PPE-Philosophy",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "PPE101",
+        "ECON101",
+        "ECON201",
+        "PUBPOL303",
+        "PPE490"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 202,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PPE101",
+        "ECON101",
+        "ECON201",
+        "PUBPOL303",
+        "PPE490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 238,
+      "legacy_rule_id": 215,
+      "major": "PPE-Political Science",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following courses",
+      "courses": [
+        "POLSCI303",
+        "POLSCI307",
+        "POLSCI308",
+        "POLSCI398-1"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following courses",
+      "page": 204,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "POLSCI303",
+        "POLSCI307",
+        "POLSCI308",
+        "POLSCI398-1"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 239,
+      "legacy_rule_id": 216,
+      "major": "PPE-Political Science",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "POLSCI101",
+        "POLSCI104",
+        "POLSCI223",
+        "CULSOC201"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 204,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "POLSCI101",
+        "POLSCI104",
+        "POLSCI223",
+        "CULSOC201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 240,
+      "legacy_rule_id": 217,
+      "major": "PPE-Political Science",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "SOSC101",
+        "SOSC102",
+        "STATS101"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 204,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "SOSC101",
+        "SOSC102",
+        "STATS101"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 241,
+      "legacy_rule_id": 218,
+      "major": "PPE-Political Science",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "GCHINA202",
+        "PHIL309",
+        "POLECON201",
+        "POLECON301",
+        "GCHINA301/POLECON302",
+        "PUBPOL213",
+        "PUBPOL301",
+        "SOSC206",
+        "SOCIOL305",
+        "SOSC314"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 204,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "GCHINA202",
+        "PHIL309",
+        "POLECON201",
+        "POLECON301",
+        "POLECON302/GCHINA301",
+        "PUBPOL213",
+        "PUBPOL301",
+        "SOSC206",
+        "SOCIOL305",
+        "SOSC314"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 242,
+      "legacy_rule_id": 219,
+      "major": "PPE-Political Science",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "PPE101",
+        "ECON101",
+        "ECON201",
+        "PUBPOL303",
+        "PPE490"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 204,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PPE101",
+        "ECON101",
+        "ECON201",
+        "PUBPOL303",
+        "PPE490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 243,
+      "legacy_rule_id": 220,
+      "major": "PPE-Public Policy",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following courses",
+      "courses": [
+        "PUBPOL204",
+        "PUBPOL221",
+        "PUBPOL222"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following courses",
+      "page": 206,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PUBPOL204",
+        "PUBPOL221",
+        "PUBPOL222"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 244,
+      "legacy_rule_id": 221,
+      "major": "PPE-Public Policy",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 4,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "PUBPOL101",
+        "POLSCI104",
+        "PUBPOL301",
+        "ECON315/PUBPOL315"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 206,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PUBPOL101",
+        "POLSCI104",
+        "PUBPOL301",
+        "ECON315"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 245,
+      "legacy_rule_id": 222,
+      "major": "PPE-Public Policy",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "SOSC101",
+        "SOSC102",
+        "STATS101"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 206,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "SOSC101",
+        "SOSC102",
+        "STATS101"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 246,
+      "legacy_rule_id": 223,
+      "major": "PPE-Public Policy",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "CULSOC201",
+        "ENVIR301",
+        "GCHINA202",
+        "GLHLTH303",
+        "POLSCI302",
+        "POLSCI307",
+        "PUBPOL213",
+        "SOSC315",
+        "SOSC206"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 206,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "CULSOC201",
+        "ENVIR301",
+        "GCHINA202",
+        "GLHLTH303",
+        "POLSCI302",
+        "POLSCI307",
+        "PUBPOL213",
+        "SOSC315",
+        "SOSC206"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 247,
+      "legacy_rule_id": 224,
+      "major": "PPE-Public Policy",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 5,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "PPE101",
+        "ECON101",
+        "ECON201",
+        "PUBPOL303",
+        "PPE490"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 206,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "PPE101",
+        "ECON101",
+        "ECON201",
+        "PUBPOL303",
+        "PPE490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 248,
+      "legacy_rule_id": 225,
+      "major": "QPE-Economics",
+      "category": "Disciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following courses",
+      "courses": [
+        "ECON301",
+        "ENVIR302",
+        "ECON303",
+        "ECON304",
+        "ECON305",
+        "ECON307",
+        "ECON310",
+        "ECON314",
+        "ECON315/PUBPOL315",
+        "ECON318",
+        "ECON333/SOSC333"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following courses",
+      "page": 210,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON301",
+        "ENVIR302",
+        "ECON303",
+        "ECON304",
+        "ECON305",
+        "ECON307",
+        "ECON310",
+        "ECON314",
+        "ECON315/PUBPOL315",
+        "ECON318",
+        "ECON333"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 249,
+      "legacy_rule_id": 226,
+      "major": "QPE-Economics",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 3,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "ECON201",
+        "ECON202",
+        "ECON204"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 210,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON201",
+        "ECON202",
+        "ECON204"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 250,
+      "legacy_rule_id": 227,
+      "major": "QPE-Economics",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following two courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following two courses",
+      "page": 209,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 251,
+      "legacy_rule_id": 228,
+      "major": "QPE-Economics",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "SOSC102",
+        "STATS101"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 209,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "SOSC102",
+        "STATS101"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 252,
+      "legacy_rule_id": 229,
+      "major": "QPE-Economics",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "COMPSCI206/ECON206",
+        "ECON212",
+        "ECON213",
+        "BEHAVSCI101",
+        "BEHAVSCI102",
+        "ECON317/MATH317",
+        "STATS201",
+        "STATS102",
+        "MATH201",
+        "MATH202",
+        "MATH206",
+        "MATH308"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 211,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "ECON206/COMPSCI206",
+        "ECON212",
+        "ECON213",
+        "BEHAVSCI101",
+        "BEHAVSCI102",
+        "MATH317",
+        "STATS201",
+        "STATS102",
+        "MATH201",
+        "MATH202",
+        "MATH206",
+        "MATH308"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 253,
+      "legacy_rule_id": 231,
+      "major": "QPE-Economics",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following two courses",
+      "courses": [
+        "POLECON301",
+        "GCHINA301/POLECON302"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following two courses",
+      "page": 209,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "POLECON301",
+        "GCHINA301"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 254,
+      "legacy_rule_id": 232,
+      "major": "QPE-Economics",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "ECON101",
+        "POLECON201"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 209,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON101",
+        "POLECON201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 255,
+      "legacy_rule_id": 233,
+      "major": "QPE-Economics",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "And complete the following course",
+      "courses": [
+        "POLECON490"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following course",
+      "page": 210,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "POLECON490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 256,
+      "legacy_rule_id": 235,
+      "major": "QPE-Political Science",
+      "category": "Disciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Disciplinary Courses",
+      "courses": [
+        "POLSCI101",
+        "POLSCI104"
+      ]
+    },
+    "group": {
+      "phrase": "Disciplinary Courses",
+      "page": 213,
+      "category": "Disciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "POLSCI101",
+        "POLSCI104"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 257,
+      "legacy_rule_id": 236,
+      "major": "QPE-Political Science",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following two courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following two courses",
+      "page": 212,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 258,
+      "legacy_rule_id": 237,
+      "major": "QPE-Political Science",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "SOSC102",
+        "STATS101"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 212,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "SOSC102",
+        "STATS101"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 259,
+      "legacy_rule_id": 238,
+      "major": "QPE-Political Science",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "CULSOC201",
+        "GCHINA202",
+        "POLSCI223",
+        "PUBPOL213",
+        "PUBPOL301"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 213,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "CULSOC201",
+        "GCHINA202",
+        "POLSCI223",
+        "PUBPOL213",
+        "PUBPOL301"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 260,
+      "legacy_rule_id": 240,
+      "major": "QPE-Political Science",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following two courses",
+      "courses": [
+        "POLECON301",
+        "GCHINA301/POLECON302"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following two courses",
+      "page": 212,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "POLECON301",
+        "GCHINA301"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 261,
+      "legacy_rule_id": 241,
+      "major": "QPE-Political Science",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "ECON101",
+        "POLECON201"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 212,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON101",
+        "POLECON201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 262,
+      "legacy_rule_id": 242,
+      "major": "QPE-Political Science",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "And complete the following course",
+      "courses": [
+        "POLECON490"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following course",
+      "page": 212,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "POLECON490"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 263,
+      "legacy_rule_id": 243,
+      "major": "QPE-Public Policy",
+      "category": "Divisional Foundation",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following two courses",
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following two courses",
+      "page": 214,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "MATH101",
+        "MATH105"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 264,
+      "legacy_rule_id": 244,
+      "major": "QPE-Public Policy",
+      "category": "Divisional Foundation",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Divisional Foundation Courses",
+      "courses": [
+        "SOSC102",
+        "STATS101"
+      ]
+    },
+    "group": {
+      "phrase": "Divisional Foundation Courses",
+      "page": 214,
+      "category": "Divisional Foundation",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "SOSC102",
+        "STATS101"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 265,
+      "legacy_rule_id": 245,
+      "major": "QPE-Public Policy",
+      "category": "Electives",
+      "operator": "optional",
+      "required_count": null,
+      "phrase": "Electives",
+      "courses": [
+        "PUBPOL213",
+        "PUBPOL221",
+        "CULSOC201",
+        "GLHLTH303",
+        "ENVIR301",
+        "PUBPOL101",
+        "PUBPOL301",
+        "PUBPOL303",
+        "ECON315/PUBPOL315"
+      ]
+    },
+    "group": {
+      "phrase": "Electives",
+      "page": 215,
+      "category": "Electives",
+      "advisory": true,
+      "missing": [],
+      "courses": [
+        "PUBPOL213",
+        "PUBPOL221",
+        "CULSOC201",
+        "GLHLTH303",
+        "ENVIR301",
+        "PUBPOL101",
+        "PUBPOL301",
+        "PUBPOL303",
+        "ECON315"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 266,
+      "legacy_rule_id": 247,
+      "major": "QPE-Public Policy",
+      "category": "Interdisciplinary",
+      "operator": "choose",
+      "required_count": 1,
+      "phrase": "And choose one of the following two courses",
+      "courses": [
+        "POLECON301",
+        "GCHINA301/POLECON302"
+      ]
+    },
+    "group": {
+      "phrase": "And choose one of the following two courses",
+      "page": 214,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "POLECON301",
+        "GCHINA301"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 267,
+      "legacy_rule_id": 248,
+      "major": "QPE-Public Policy",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 2,
+      "phrase": "Interdisciplinary Courses",
+      "courses": [
+        "ECON101",
+        "POLECON201"
+      ]
+    },
+    "group": {
+      "phrase": "Interdisciplinary Courses",
+      "page": 214,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "ECON101",
+        "POLECON201"
+      ]
+    }
+  },
+  {
+    "match": "same_courses",
+    "rule": {
+      "rule_id": 268,
+      "legacy_rule_id": 249,
+      "major": "QPE-Public Policy",
+      "category": "Interdisciplinary",
+      "operator": "all",
+      "required_count": 1,
+      "phrase": "And complete the following course",
+      "courses": [
+        "POLECON490"
+      ]
+    },
+    "group": {
+      "phrase": "And complete the following course",
+      "page": 214,
+      "category": "Interdisciplinary",
+      "advisory": false,
+      "missing": [],
+      "courses": [
+        "POLECON490"
+      ]
+    }
+  }
+]

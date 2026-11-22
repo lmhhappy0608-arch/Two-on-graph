@@ -1,0 +1,41 @@
+# macOS and editor files
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local Streamlit settings and secrets
+.streamlit/secrets.toml
+
+# Generated or superseded data
+data/curriculum.pre_audit.sqlite
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+
+# Private project administration and personal documents
+Expense Description - OpenAI ChatGPT Plus Subscription.pdf
+IE210_TWO ON GRAPH_BUDGET.xlsx
+Template_Quarterly_Budget_Plan.xlsx
+DKUInnovationChallengeS6Apply_Submission_*.pdf
+Dii-proposal_Final.docx
+
+# Reports/templates containing personal details; keep technical Markdown reports instead
+IE210_TWO ON GRAPH_Quarter 1 Report.docx
+IE210_TWO ON GRAPH_Quarter 1 Report.pdf
+Template_Dii Quarterly Report.docx
+
+# Reference PDFs and presentation assets are not distributed in the code repository
+paper/
+ug_bulletin_2025-2026.pdf
+Final_Pitch_Presentation_TwoOnGraph.pdf
+Appendix 1. Evaluation Criteria for the Projects Selection_Innovation.pdf
+

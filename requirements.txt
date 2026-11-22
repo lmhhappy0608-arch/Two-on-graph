@@ -1,0 +1,8 @@
+streamlit
+networkx
+matplotlib
+pandas
+openpyxl
+PyMuPDF
+pytest
+
